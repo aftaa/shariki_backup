@@ -27,6 +27,6 @@ $files = glob('backups/weekly/gelievyeshari24*');
 delete_files($files, 3);
 
 $files = glob('backups/daily/shariki*');
-delete_files($files, 7);
+delete_files($files, 5);
 $files = glob('backups/daily/gelievyeshari24*');
-delete_files($files, 7);
+delete_files($files, 5);
