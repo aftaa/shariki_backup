@@ -22,11 +22,11 @@ function delete_files(array $files, int $maxCount): void
     }
 }
 $files = glob('backups/weekly/shariki*');
-delete_files($files, 3);
+delete_files($files, 7);
 $files = glob('backups/weekly/gelievyeshari24*');
-delete_files($files, 3);
+delete_files($files, 7);
 
 $files = glob('backups/daily/shariki*');
-delete_files($files, 5);
+delete_files($files, 7);
 $files = glob('backups/daily/gelievyeshari24*');
-delete_files($files, 5);
+delete_files($files, 7);
